@@ -32,3 +32,8 @@ $ yarn populate <database1> <database2> ...
 # Example: yarn destruct postgres
 $ yarn destruct <database1> <database2> ...
 ```
+
+### Examples
+
+![time series visualization](./examples/time_series_visualization.png)
+![static visualization](./examples/static_visualization.png)
