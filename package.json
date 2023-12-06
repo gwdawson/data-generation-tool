@@ -1,0 +1,20 @@
+{
+  "name": "database-generation-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "./scripts/generate.sh $@",
+    "populate": "./scripts/populate.sh $@",
+    "destruct": "./scripts/destruct.sh $@"
+  },
+  "keywords": [],
+  "author": "Gareth Dawson",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "ini": "^4.1.1",
+    "postgres": "^3.4.3"
+  }
+}
